@@ -25,7 +25,10 @@ submit.py              # builds and validates all four Codabench submission
                        # metadata never breaks the archive
 taskb_test_submit.py   # the Task B test decode: B1's threshold pinned to the 49%
                        # measured unsafe rate (worth +0.16 macro-F1 over the
-                       # dev-fitted operating point) and B2's blended argmax
+                       # dev-fitted operating point) and B2's blended argmax.
+                       # NOTE: imports the encoder-ensemble module (src.taskb_baseline)
+                       # lost in the workspace incident; kept for the frozen decode
+                       # logic and constants it documents
 ```
 
 Run the audit against the official CSVs:
