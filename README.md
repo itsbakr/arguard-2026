@@ -17,8 +17,9 @@ id_leak_audit.py       # reproduces the Task B sequential-id label leak from the
                        # a nearest-id lookup fitted on train scoring 1.0000 dev
                        # macro-F1 with zero characters of text read, and the
                        # shuffled-id randomization control that collapses it to
-                       # chance. Disclosed to the organizers 29 Jul 2026 with this
-                       # reproduction; the test release was re-indexed in response.
+                       # chance. Identified 29 Jul 2026 and left unexploited; the
+                       # official test release is re-indexed from 1, so the artifact
+                       # does not affect evaluation-phase scores.
 submit.py              # builds and validates all four Codabench submission
                        # formats (the Terms tab, not the repo README, is
                        # authoritative for Task B), using zipfile so macOS

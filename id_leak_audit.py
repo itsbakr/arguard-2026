@@ -1,5 +1,6 @@
-"""ArGuard Task B sequential-id label-leak audit (disclosed 29 Jul 2026, fixed by
-the organizers before the test release; see the paper's Section 6).
+"""ArGuard Task B sequential-id label-leak audit (identified 29 Jul 2026 and left
+unexploited; the official test release is re-indexed from 1, so the artifact does
+not affect evaluation-phase scores; see the paper's Section 6).
 
 Reproduces, from the public dev-phase CSVs alone, with zero characters of prompt
 text read:
