@@ -1,1 +1,8 @@
+# Local side (scripts, decodes, packaging, and the Modal client).
+# GPU-side packages (torch, transformers, peft, accelerate) are pinned inside
+# the Modal images in src/modal_vlm.py and src/modal_taskb.py.
 numpy
+scikit-learn
+scipy
+datasets
+modal
