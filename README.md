@@ -9,6 +9,13 @@ Official results: **1st** on subtask A2 (fine-grained hateful memes, macro-F1
 0.4194), **3rd** on A1 (binary memes, 0.7889), **3rd** on B2 (harm domain,
 0.7695), 7th on B1 (safe/unsafe, 0.7552).
 
+**Paper:** published in the ArabicNLP 2026 shared task proceedings as
+[2026.arabicnlp-sharedtasks.61](https://aclanthology.org/2026.arabicnlp-sharedtasks.61/)
+(the 10 Sep 2026 camera-ready). A corrected version is in
+[`paper/Younis_ArGuard2026_corrected.pdf`](paper/Younis_ArGuard2026_corrected.pdf);
+I'm filing it as an ACL Anthology revision. See
+[Paper corrections](#paper-corrections) for what changed.
+
 ## Contents
 
 ```
@@ -240,8 +247,8 @@ Gaps:
 ## Paper corrections
 
 Recovering this code let us check the paper against what actually ran. The
-corrected version (on arXiv) fixes these statements in the 10 Sep 2026
-camera-ready:
+corrected version (`paper/Younis_ArGuard2026_corrected.pdf`) fixes these
+statements in the 10 Sep 2026 camera-ready:
 
 - The A2 gains: switching to the VLM with the decode fixed added +0.096,
   decode changes +0.068 (0.043 of it from test-phase scoring feedback), more
@@ -272,6 +279,8 @@ https://github.com/itsbakr/imageeval-2026
   booktitle = {Proceedings of the Fourth Arabic Natural Language Processing
                Conference: Shared Tasks},
   year      = {2026}, address = {Budapest, Hungary},
-  publisher = {Association for Computational Linguistics}
+  publisher = {Association for Computational Linguistics},
+  pages     = {465--469},
+  url       = {https://aclanthology.org/2026.arabicnlp-sharedtasks.61/}
 }
 ```
